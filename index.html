@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="./javascript/storyFramework.js" type="text/javascript"></script>
+        <script src="./javascript/include/jquery-2.1.0.min.js" type="text/javascript"></script>
         <script src="./javascript/stories/arabianNights.js" type="text/javascript"></script>
+        <script src="./javascript/storyFramework.js" type="text/javascript"></script>
         <link rel="stylesheet" type="text/css" href="./arabianNights.css">
+        <link rel="stylesheet" href="./font-awesome-4.0.3/css/font-awesome.min.css">
     </head>
     <body>
-        <div id="back"></div>
-        <div id="restart"></div>
-        <div id="story-segment"></div>
-        <ul id="story-choices"></ul>
+        <div class="content">
+            <h1 id="title"></h1>
+            <div id="back"></div>
+            <div id="restart"></div>
+            <div class="story-segment"></div>
+            <ul id="story-choices"></ul>
+        </div>
     </body>
 </html>
